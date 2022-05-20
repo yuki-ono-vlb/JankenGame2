@@ -199,6 +199,9 @@ class Application(Frame):
 
 		# じゃんけんの手のクリック状態を変更する
 		self.__hand_btn_state_changed()
+		
+		# 両ユニットの入力欄の入力状態を変更する
+		self.__state_changed()
 
 		# 両ユニットの勝利回数表示のリセットを行う
 		self.__reset()
