@@ -331,7 +331,7 @@ class Application(Frame):
 
 if __name__ == '__main__':
 	#ウィジットの設定
-	app = Application(Tk())
+	app:Application = Application(Tk())
 
 	# GUIを表示
 	app.mainloop()
